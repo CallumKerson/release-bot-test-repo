@@ -1,0 +1,11 @@
+[packages.app-a]
+path = "apps/app-a"
+depends-on = ["lib-1"]
+
+[packages.app-b]
+path = "apps/app-b"
+depends-on = ["lib-1"]
+
+[packages.lib-1]
+path = "libs/lib-1"
+release = false
